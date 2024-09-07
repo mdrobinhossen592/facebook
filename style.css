@@ -1,0 +1,414 @@
+img{
+    max-width: 100%;
+}
+/* facebook-header-menu-start */
+.facebook {
+    box-shadow: 0px 0px 7px 1px #a39f9f52;
+    padding: 3px 0 1px 0;
+}
+
+.fa-left-menu {
+    display: flex;
+}
+.fa-left-menu .fa-logo {
+    width: 44px;
+    margin-right: 20px;
+}
+.fa-left-menu .fa-logo a{}
+.fa-left-menu .fa-logo a img{}
+.fa-left-menu .data-form {
+    line-height: 47px;
+}
+.fa-left-menu .data-form .data-search {
+    width: 240px;
+    padding: 0px 18px 2px 18px;
+    height: 45px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 7px 1px #938f8f63;
+    
+}
+    
+
+.fa-right-menu {
+    /* position: relative; */
+    text-align: right;
+}
+.fa-mid-menu ul {
+    list-style: none;
+    margin-bottom: 0;
+    padding: 0;
+}
+.fa-mid-menu ul li {
+    display: inline-block;
+    height: 51px;
+    position: relative;
+    transition: .5s;
+    width: 130px;
+    text-align: center;
+}
+.fa-mid-menu ul li a {
+    padding: 14px 56px;
+    color: #666;
+    line-height: 45px;
+    font-size: 20px;
+    transition: .5s;
+}
+.fa-mid-menu ul li:hover{
+    background-color: #c2c2c28a;
+    border-radius: 5px;
+}
+.fa-mid-menu ul li::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 0;
+    background-color: #0866ff;
+    transition: .5s;
+    border-radius: 5px;
+}
+.fa-mid-menu ul li:hover::before{
+    width: 100%;
+    
+}
+.fa-mid-menu ul li:hover a{
+    color: #0866ff;
+}
+
+
+.fa-right-menu {
+    /* position: relative; */
+    text-align: right;
+}
+.fa-right-menu ul {
+    list-style: none;
+    margin-bottom: 0;
+    float: left;
+    padding-left: 110px;
+    
+}
+.fa-right-menu ul li {
+    display: inline-block;
+    height: 50px;
+    line-height: 53px;
+    width: 50px;
+    border-radius: 50%;
+    background: #97979733;
+    text-align: center;
+    /* display: flex; */
+    margin: 1px;
+}
+.fa-right-menu ul li a {
+    padding: 0 12px;
+    color: #666;
+    line-height: 42px;
+    font-size: 22px;
+}
+
+
+.account {
+  
+}
+.account a {}
+.account a img {
+    height: 50px;
+    width: 50px ;
+    border-radius: 50%;
+}
+/* facebook-header-menu-end */
+
+/* newsit-section-start */
+.newsit {
+    background: #f0f2f5;
+}
+.fa-left-scroolbar {
+    margin-top: 25px;
+    border-bottom: 1px solid #66666663;
+    width: 315px;
+}
+.scroll-down{
+    overflow: auto;
+    /* height: 100vh; */
+}
+.scroll-down:hover{
+    overflow: auto;
+    height: 100vh;
+}
+
+.fa-left-account {
+    position: relative;
+}
+.fa-left-account a{}
+.fa-left-account a img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: relative;
+}
+.fa-left-account span {
+    display: block;
+    position: absolute;
+    top: 6px;
+    left: 41px;
+    padding-left: 10px;
+}
+.fa-left-account span a {
+    text-decoration: none;
+    font-size: 17px;
+    color: #111111cc;
+    font-weight: 500;
+    display: block;
+}
+
+.fa-left-scroolbar ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+.fa-left-scroolbar ul li {
+    height: 50px;
+    line-height: 50px;
+    transition: .5s;
+}
+.fa-left-scroolbar ul li:hover{
+    background-color: #ddd;
+}
+.fa-left-scroolbar ul li a {
+    text-decoration: none;
+    color: #323131fc;
+    display: flex;
+    position: relative;
+}
+.fa-left-scroolbar ul li a span {
+    display: inline-block;
+    height: 45px;
+    width: 30px;
+    text-align: center;
+    font-size: 21px;
+}
+.fa-left-scroolbar ul li a .group{
+    color: #197cf3;
+}
+.fa-left-scroolbar ul li a .Memorise{
+    color: #197cf3;
+}
+.fa-left-scroolbar ul li a .Saved{
+    color: #b64acf;
+}
+.fa-left-scroolbar ul li a .Marketplace{
+    color: #55c7d5;
+}
+.fa-left-scroolbar ul li a .See-more {
+    color: #000;
+    font-size: 17px;
+    display: inline-block;
+    background: #c1c1c185;
+    border-radius: 50%;
+    height: 32px;
+    width: 30px;
+    margin-top: 7px;
+    line-height: 30px;
+}
+
+.fa-left-scroolbar ul li a .user1 {
+    position: absolute;
+    color: #1c89f6;
+}
+.fa-left-scroolbar ul li a .user2 {
+    padding-left: 18px;
+    font-size: 19px;
+    color: #7fdfd2;
+}
+.fa-left-scroolbar ul li a strong {
+    padding-left: 18px;
+    font-weight: 500;
+}
+
+/* your-shortcuts-start */
+.your-shortcuts{}
+.title {
+    height: 50px;
+    margin-top: 8px;
+    line-height: 50px;
+}
+.title span {
+    font-weight: 500;
+    color: #666;
+}
+.title a {
+    text-decoration: none;
+    /* margin-right: 17px; */
+    margin-left: 173px;
+}
+.fa-left-scroolbar:hover .title a{
+    visibility: visible;
+    opacity: 1;
+}
+.your-shortcuts ul {
+    list-style: none;
+    padding: 0;
+}
+.your-shortcuts ul li {
+    height: 55px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    transition: .5s;
+}
+.your-shortcuts ul li:hover{
+    background: #ddd;
+}
+.your-shortcuts ul li a {
+    color: #141212c7;
+}
+.your-shortcuts ul li a span {
+    position: absolute;
+    top: 13px;
+}
+.your-shortcuts ul li a .See-more {
+    line-height: 29px;
+    height: 30px;
+    width: 30px;
+    background: #ddd;
+    border-radius: 50%;
+    text-align: center;
+}
+.your-shortcuts ul li a img {
+    height: 35px;
+    width: 35px;
+    border-radius: 10px;
+}
+.your-shortcuts ul li a strong {
+    display: inline-block;
+    width: 286px;
+    padding-left: 46px;
+}
+/* your-shortcuts-end */
+/* newsit-section-end */
+
+/* fa-right-scrollbar-start */
+.fa-right-scrollbar {}
+.sponsored{
+    margin-top: 15px;
+    padding: 10px 0;
+    border-bottom: 1px solid #a9a9a9cf;
+}
+.sponsored p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #666;
+}
+
+.sponsored .fst-sponsored {
+    height: 140px;
+    margin-bottom: 10px;
+    padding: 5px 0;
+    transition: .5s;
+}
+.sponsored .fst-sponsored:hover{
+    background-color: #ddd;
+    border-radius: 5px;
+}
+.sponsored .fst-sponsored a {
+    text-decoration: none;
+}
+.sponsored .fst-sponsored a img {
+    width: 130px;
+    float: left;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+.sponsored .fst-sponsored a p {
+    margin: 0;
+    padding-top: 21px;
+    font-size: 18px;
+}
+.sponsored .fst-sponsored a span {
+    font-size: 15px;
+    color: #666;
+}
+
+.sponsored .sec-Sponsorerd{
+    height: 140px;
+    margin-bottom: 10px;
+    padding: 5px 0;
+    transition: .5s;
+}
+.sponsored .sec-Sponsorerd:hover{
+    background-color: #ddd;
+    border-radius: 5px;
+}
+.sponsored .sec-Sponsorerd a{
+    text-decoration: none;
+}
+.sponsored .sec-Sponsorerd a img{
+    width: 130px;
+    float: left;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+.sponsored .sec-Sponsorerd a p{
+    margin: 0;
+    padding-top: 21px;
+    font-size: 18px;
+}
+.sponsored .sec-Sponsorerd a span{
+    font-size: 15px;
+    color: #666;
+}
+
+/* friend-request-area */
+.friend-request {
+    margin-top: 5px;
+    padding: 10px 0;
+    border-bottom: 1px solid #a9a9a9cf;
+}
+.request-title {
+    color: #606060;
+    margin-bottom: 10px;
+}
+.request-title strong{}
+.request-title a {
+    margin-left: 50%;
+    text-decoration: none;
+}
+.user-name {
+    margin-top: 17px;
+}
+.user-name .user-info {
+    position: relative;
+}
+.user-name .user-info {
+    height: 110px;
+}
+.user-name .user-info .user-data {
+    padding-left: 26%;
+}
+.user-name .user-info .user-data p {
+    padding-top: 5px;
+    font-weight: 500;
+}
+.user-name .user-info .user-data .conform-btn {
+    padding: 7px 25px;
+    margin-right: 10px;
+}
+.user-name .user-info .user-data .delete-btn {
+    padding: 5px 18px;
+    background: #ddd;
+}
+.user-name .user-info img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.user-img{}
+.user-img img{}
+/* friend-request-area-end */
+/* fa-right-scrollbar-end */
+  
